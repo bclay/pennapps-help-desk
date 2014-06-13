@@ -1,2 +1,3 @@
-PennApps Help Desk: See the Wiki for plans.
+PennApps Help Desk
 ==================
+See the Wiki for plans.
