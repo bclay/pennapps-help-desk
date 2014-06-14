@@ -1,10 +1,12 @@
-var server = require("./server");
-var router = require("./router");
-var requestHandlers = require("./requestHandlers");
+var express = require('express');
+var app = express();
 
-var handle = {}
-handle["/"] = requestHandlers.start;
-handle["/start"] = requestHandlers.start;
+var router = require("./routes/router.js");
+
+//app.use(express.bodyParser());
+//app.use(express.logger("default"));
+
+app.get('/', router.launch);
 
 
-server.start(router.route, handle);
+app.listen(8080);
