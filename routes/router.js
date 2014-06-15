@@ -13,8 +13,17 @@ exports.route = route;
 
 */
 
-function launch(req, res){
+var launch = function(req, res){
 	res.render('index.jade', {});
 }
 
-exports.launch = launch;
+var search = function(req, res){
+	//nothing yet
+}
+
+var routes = {
+	launch: launch,
+	search: search
+}
+
+module.exports = routes;
