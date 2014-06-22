@@ -9,4 +9,6 @@ var router = require("./routes/router.js");
 app.get('/', router.launch);
 
 
-app.listen(8080);
+
+
+app.listen(80);

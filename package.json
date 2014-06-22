@@ -7,6 +7,8 @@
 	},
 	"dependencies": {
 		"express": "4.4.3",
-		"jade":"1.3.1"
+		"jade":"1.3.1",
+		"aws-sdk": "*",
+		"async": "*"
 	}
 }
