@@ -5,9 +5,9 @@ var router = require("./routes/router.js");
 
 app.use(logfmt.requestLogger());
 
-app.get('/', router.launch);
-
-
+app.get('/', function(req, res) {
+  res.send('Hello World!');
+});
 
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function(){

@@ -1,3 +1,4 @@
+/*
 var AWS = require('aws-sdk');
 AWS.config.loadFromPath(../../config.json);
 var simpledb = new AWS.SimpleDB();
@@ -9,3 +10,4 @@ simpledb.createDomain({DomainName:'helpdeskqs'}, function(err, data){
 		
 	}
 });
+*/
