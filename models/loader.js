@@ -1,4 +1,4 @@
-/*
+/* Don't mind me, I'm a work in progress.
 var AWS = require('aws-sdk');
 AWS.config.loadFromPath(../../config.json);
 var simpledb = new AWS.SimpleDB();
