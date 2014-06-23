@@ -1,14 +1,23 @@
 {
-	"name": "pennapps-help-desk",
-	"description": "Extended PennApps FAQ with cute animations.",
-	"version": "0.0.1",
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "4.4.3",
-		"jade":"1.3.1",
-		"aws-sdk": "*",
-		"async": "*"
-	}
+  "name": "pennapps-help-desk",
+  "description": "Extended PennApps FAQ with cute animations.",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "dependencies": {
+    "express": "4.4.3",
+    "jade": "1.3.1",
+    "aws-sdk": "*",
+    "async": "*",
+    "logfmt": "~1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bclay/pennapps-help-desk"
+  },
+  "author": "Brynn Claypoole",
+  "engines": {
+    "node": "0.10.x"
+  }
 }
