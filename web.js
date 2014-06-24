@@ -11,14 +11,13 @@ app.post('/pass', function(req, res) {
   res.send('You sent the question"' + req.body.name + '".');
 });
 */
-app.use(bodyParser());
 
-app.post('/pass', function(req, res) {
-  res.send('You sent the question"' + req.body.name + '".');
-});
 
 app.get('/', router.launch);
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function(){
 	console.log("Listening on " + port);
 });
+
+app.use(bodyParser());
+app.post('pass', router.search);
