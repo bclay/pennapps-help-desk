@@ -18,7 +18,9 @@ var launch = function(req, res){
 }
 
 var search = function(req, res){
-	//nothing yet
+app.post('/pass', function (req, res) {
+    res.render('index.jade', { name: req.body.name });
+});
 }
 
 var routes = {
