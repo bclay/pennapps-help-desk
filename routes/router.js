@@ -18,10 +18,7 @@ var launch = function(req, res){
 }
 
 var search = function(req, res){
-app.post('/pass', function (req, res) {
-    res.send('index.jade', { name: req.body.name });
-    console.log ("asdf");
-});
+console.log("asdf");
 }
 
 var routes = {
