@@ -103,50 +103,44 @@ input[type="submit"] {
 }
 .eye {
     height: 70px;
-    width: 70px;
-    background: white;
+    width: 80px;
+    background-color: white;
+    position: relative;
+    border-radius: 70%/100%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /*border-top-right-radius: 40px;
+    border-top-left-radius: 40px;*/
     border: 3px solid black;
     z-index: 2;
-    transform: rotate(-43deg);
-    -webkit-transform: rotate(-43deg);
-    -moz-transform: rotate(-43deg);
 }
 .eye-left {
-    position: relative;
     left: 40px;
-    top: 70px;
-    border-radius: 0px 300px 50px 300px;
-    transform: rotate(-43deg);
-    -webkit-transform: rotate(-43deg);
-    -moz-transform: rotate(-43deg);
+    top: 60px;
 }
 .eye-right {
-    position: relative;
-    left: 185px;
-    top: -4px;
-    border-radius: 50px 300px 0px 300px;
-    transform: rotate(-43deg);
-    -webkit-transform: rotate(-43deg);
-    -moz-transform: rotate(-43deg);
+    left: 176px;
+    top: -14px;
 }
 .eye-color{
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     background: #35a;
-    border: 3px solid black;
-    border-radius: 30px;
+    border: 2px solid black;
+    border-radius: 40px;
     z-index: 3;
     animation: shifty .5s infinite;
     -webkit-animation: shifty .5s infinite;
     -moz-animation: shifty .5s infinite;
     position: relative;
-    left: 10px;
+    left: 13px;
     top: 10px;
+
 }
 
 .pupil{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background: black;
     border-radius: 30px;
     z-index: 4;
@@ -154,8 +148,24 @@ input[type="submit"] {
     -webkit-animation: shifty .5s infinite;
     -moz-animation: shifty .5s infinite;
     position: relative;
-    left: 13px;
-    top: 13px;
+    left: 10px;
+    top: 10px;
+}
+.light{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 30px;
+    z-index: 5;
+    position: relative;
+    top: -40%;
+}
+
+.eyelash{
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 30px;
 }
 
 .nose1{
@@ -182,10 +192,10 @@ input[type="submit"] {
 }
 .mouth{
     background-color: white;
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     position: relative;
-    left: 110px;
+    left: 100px;
     top: 20px;
     border: 4px solid #933;
     border-radius: 0px 0px 50px 50px;
@@ -198,3 +208,4 @@ input[type="submit"] {
     left: 4px;
     top: 8px;
 }
+
