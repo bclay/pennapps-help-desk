@@ -5,11 +5,10 @@ html(lang = "en")
 		
 	body
 		p Welcome to the PennApps Help Desk!
-	form
-		input(
-		type="text"
-		size="20"
-		placeholder="Enter your question here.")
-		input(
-		type="button"
-		value="Search")
+	div
+		form(name="search", action="/pass", method="post")
+
+				input( type="text", size="25",placeholder="Enter your question here.")
+
+				input( type="submit", value="Search")
+

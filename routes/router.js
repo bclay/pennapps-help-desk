@@ -18,7 +18,7 @@ var launch = function(req, res){
 }
 
 var search = function(req, res){
-	//nothing yet
+console.log("asdf");
 }
 
 var routes = {
