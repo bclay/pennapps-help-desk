@@ -1,0 +1,211 @@
+body {
+    /*background: url("http://imgur.com/ILsb0n8.jpg");*/
+    background: skyblue;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    align-content: center;
+}
+p {
+    font-size: 24px;
+}
+input {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    color: black;
+    background: orange;
+}
+@keyframes blink{
+    50%{
+        z-index: -2;
+    }
+}/*
+@keyframes shifty{
+    25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}
+@-webkit-keyframes shifty{
+    25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}
+@-moz-keyframes shifty{
+        25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}*/
+.brynn {
+
+}
+.face{
+    height: 300px;
+    width: 300px;
+    background: #eeaa88;
+    border: 3px solid black;
+    border-radius: 150px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.hair1{
+    height: 400px;
+    width: 400px;
+    background: #884411;
+    border: 4px solid black;
+    border-radius: 300px 300px 0px 0px;
+    z-index: -1;
+}
+.hair2{
+    height: 100px;
+    width: 250px;
+    background: #884411;
+    border: 3px solid black;
+    position: relative;
+    left: 75px;
+    top: 160px;
+    border-radius: 300px 300px 50px 50px;
+    z-index: 1;
+}
+.eye {
+    height: 70px;
+    width: 80px;
+    background-color: white;
+    position: relative;
+    border-radius: 70%/100%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /*border-top-right-radius: 40px;
+    border-top-left-radius: 40px;*/
+    border: 3px solid black;
+    z-index: 2;
+}
+.eye-left {
+    left: 40px;
+    top: 60px;
+}
+.eye-right {
+    left: 176px;
+    top: -14px;
+}
+.eye-color{
+    height: 50px;
+    width: 50px;
+    background: #35a;
+    border: 2px solid black;
+    border-radius: 40px;
+    z-index: 3;
+    animation: shifty .5s infinite;
+    -webkit-animation: shifty .5s infinite;
+    -moz-animation: shifty .5s infinite;
+    position: relative;
+    left: 13px;
+    top: 10px;
+
+}
+
+.pupil{
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius: 30px;
+    z-index: 4;
+    animation: shifty .5s infinite;
+    -webkit-animation: shifty .5s infinite;
+    -moz-animation: shifty .5s infinite;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.light{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 30px;
+    z-index: 5;
+    position: relative;
+    top: -40%;
+}
+
+.eyelash{
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 30px;
+}
+
+.nose1{
+    height: 50px;
+    width: 3px;
+    position: relative;
+    background-color: black;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(30deg);
+    left: 140px;
+    top: -10px;
+}
+.nose2{
+    height: 3px;
+    width: 35px;
+    position: relative;
+    background-color: black;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(0deg);
+    left: 0px;
+    top: 42px;
+}
+.mouth{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border: 4px solid #933;
+    border-radius: 0px 0px 50px 50px;
+}
+.teeth{
+    height: 0px;
+    width: 72px;
+    position: relative;
+    background-color: black;
+    left: 4px;
+    top: 8px;
+}
+
