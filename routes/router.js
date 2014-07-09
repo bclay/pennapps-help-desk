@@ -1,3 +1,4 @@
+var db = require("../models/db.js");
 /*function route(handle, pathname, response){
 	console.log("About to route a request for " + pathname);
 	if (typeof handle[pathname] === 'function'){
@@ -18,7 +19,18 @@ var launch = function(req, res){
 }
 
 var search = function(req, res){
-console.log("asdf");
+	db.searchQuestion(req.body,function(data,err){
+		if (err) {
+			res.render('index.jade',{message:err});
+		}
+		else if (data){
+
+			res.redirect('/questionpage')
+		}
+		else{
+			res.render('index.jade', {message: 'Invalid question'});
+		}
+	});
 }
 
 var routes = {
