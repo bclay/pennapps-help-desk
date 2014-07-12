@@ -1,0 +1,174 @@
+
+@keyframes blink{
+    50%{
+        z-index: -2;
+    }
+}/*
+@keyframes shifty{
+    25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}
+@-webkit-keyframes shifty{
+    25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}
+@-moz-keyframes shifty{
+        25%{
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        left: 15px;
+        top: 15px;
+    }
+    75%{
+        left: 30px;
+        top: 30px;
+    }
+}*/
+.alex {
+ 
+}
+.aface{
+    height: 300px;
+    width: 300px;
+    background: #d6a360;
+    border: 3px solid black;
+    border-radius: 150px;
+    position: relative;
+    left: 0px;
+    top: 100px;
+}
+.ahair1{
+    height: 70px;
+    width: 300px;
+    background: black;
+    border: 4px solid black;
+    border-radius: 100px 100px 50px 50px;
+    z-index: 100;
+    top: -10px;
+    position: relative;
+}
+.aglasses{
+    height: 50px;
+    width: 100px;
+    background-color: #d6a360;
+    position: relative;
+    z-index: 2;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+
+.aglasses-left {
+    left: 20px;
+    top: 20px;
+}
+.aglasses-right {
+    left: 150px;
+    top: -45px;
+}
+.frame1{
+    height: 4px;
+    width: 20px;
+    left: 105px;
+    top: -10px;
+    position: relative;
+    background-color: black;
+}
+.aeye-color{
+    /* #421 
+    background: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    z-index: 3;
+    animation: shifty .5s infinite;
+    -webkit-animation: shifty .5s infinite;
+    -moz-animation: shifty .5s infinite;
+    position: relative;
+    left: 20px;
+    top: 0px;
+    height: 0px;
+    width: 0px;
+    border-radius: 50%/100%;*/
+    
+}
+
+.apupil{
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius: 30px;
+    z-index: 4;
+    animation: shifty .5s infinite;
+    -webkit-animation: shifty .5s infinite;
+    -moz-animation: shifty .5s infinite;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.alight{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 30px;
+    z-index: 5;
+    position: relative;
+    top: -40px;
+}
+
+
+.anose{
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    border-radius: 50%/100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 3px solid #d6a360;
+    top: -20px;
+    left: 120px;
+}
+
+.amouth{
+    background-color: #933;
+    height: 12px;
+    width: 80px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 0;
+}
+.aline{
+    height: 2px;
+    width: 80px;
+    background: black;
+    top: 5px;
+    position: relative;
+    z-index: 4;
+}

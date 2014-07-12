@@ -90,13 +90,34 @@ input[type="submit"] {
     border-radius: 300px 300px 0px 0px;
     z-index: -1;
 }
-
+<<<<<<< HEAD
+.hair2{
+    height: 100px;
+    width: 250px;
+    background: #884411;
+    border: 3px solid black;
+    position: relative;
+    left: 75px;
+    top: 160px;
+    border-radius: 300px 300px 50px 50px;
+    z-index: 1;
+}
+=======
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 .eye {
     height: 70px;
     width: 80px;
     background-color: white;
     position: relative;
-
+<<<<<<< HEAD
+    border-radius: 70%/100%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /*border-top-right-radius: 40px;
+    border-top-left-radius: 40px;*/
+    border: 3px solid black;
+    z-index: 2;
+=======
     border-radius: 50%/100%;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -108,6 +129,7 @@ input[type="submit"] {
     z-index: 2;
     
    */
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 }
 .eye-left {
     left: 40px;
@@ -115,9 +137,11 @@ input[type="submit"] {
 }
 .eye-right {
     left: 176px;
-
+<<<<<<< HEAD
+    top: -14px;
+=======
     top: -25px;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 }
 .eye-color{
     height: 50px;
@@ -130,7 +154,15 @@ input[type="submit"] {
     -webkit-animation: shifty .5s infinite;
     -moz-animation: shifty .5s infinite;
     position: relative;
+<<<<<<< HEAD
+    left: 13px;
+    top: 10px;
 
+}
+
+.pupil{
+    height: 30px;
+=======
     left: 12px;
     top: 0px;
 
@@ -143,7 +175,8 @@ input[type="submit"] {
 
 .pupil{
     height: 35px;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
+    width: 30px;
     background: black;
     border-radius: 30px;
     z-index: 4;
@@ -152,9 +185,11 @@ input[type="submit"] {
     -moz-animation: shifty .5s infinite;
     position: relative;
     left: 10px;
-
+<<<<<<< HEAD
+    top: 10px;
+=======
     top: 20px;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 }
 .light{
     height: 15px;
@@ -163,7 +198,16 @@ input[type="submit"] {
     border-radius: 30px;
     z-index: 5;
     position: relative;
+<<<<<<< HEAD
+    top: -40%;
+}
 
+.eyelash{
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 30px;
+=======
     top: -20px;
     left: 5px;
 }
@@ -176,7 +220,7 @@ input[type="submit"] {
     left: 60px;
     top: -24px;
     position: relative;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 }
 
 .nose1{
@@ -188,9 +232,11 @@ input[type="submit"] {
     -webkit-transform: rotate(25deg);
     -moz-transform: rotate(30deg);
     left: 140px;
-
+<<<<<<< HEAD
+    top: -10px;
+=======
     top: -20px;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
 }
 .nose2{
     height: 3px;
@@ -209,9 +255,11 @@ input[type="submit"] {
     width: 100px;
     position: relative;
     left: 100px;
-
+<<<<<<< HEAD
+    top: 20px;
+=======
     top: 10px;
-
+>>>>>>> a48888848b21e8f6a1b0393038771ac316b307f6
     border: 4px solid #933;
     border-radius: 0px 0px 50px 50px;
 }
