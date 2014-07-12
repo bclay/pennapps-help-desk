@@ -4,15 +4,18 @@ var jade= require ('jade');
 var logfmt = require("logfmt");
  bodyParser = require('body-parser');
 var router = require("./routes/router.js");
+var natural = require('natural');
 
+tokenizer=new natural.WordTokenizer();
 app.use(logfmt.requestLogger());
-/*app.use(bodyParser());
-app.post('/pass', function(req, res) {
-  res.send('You sent the question"' + req.body.name + '".');
-});
-
 app.use(bodyParser());
+/*
+app.post('/pass', function(req, res) {
+	console.log(tokenizer.tokenize(req.body.ques))
+ 
+});
 */
+
 
 app.post('/pass', router.search)
 

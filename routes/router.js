@@ -1,4 +1,7 @@
-dvar db = require("../models/db.js");
+var db = require('../models/db.js');
+var natural = require('natural');
+
+tokenizer=new natural.WordTokenizer();
 /*function route(handle, pathname, response){
 	console.log("About to route a request for " + pathname);
 	if (typeof handle[pathname] === 'function'){
@@ -19,7 +22,7 @@ var launch = function(req, res){
 }
 
 var search = function(req, res){
-	db.searchQuestion(req.body,function(data,err){
+	db.searchQuestion(req.body.ques,function(data,err){
 		if (err) {
 			res.render('index.jade',{message:err});
 		}
@@ -31,8 +34,8 @@ var search = function(req, res){
 			res.render('index.jade', {message: 'Invalid question'});
 		}
 	});
-}
 
+}
 var routes = {
 	launch: launch,
 	search: search
