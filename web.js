@@ -5,6 +5,8 @@ var logfmt = require("logfmt");
  bodyParser = require('body-parser');
 var router = require("./routes/router.js");
 
+app.use(express.static(__dirname + '/public'));
+
 app.use(logfmt.requestLogger());
 /*app.use(bodyParser());
 app.post('/pass', function(req, res) {

@@ -1,5 +1,4 @@
 body {
-    /*background: url("http://imgur.com/ILsb0n8.jpg");*/
     background: skyblue;
     background-size: cover;
     background-position: center center;
@@ -69,8 +68,13 @@ input[type="submit"] {
         top: 30px;
     }
 }*/
-.brynn {
+div{
 
+}
+.brynn {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
 .face{
     height: 300px;
